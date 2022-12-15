@@ -1,0 +1,13 @@
+# This is simple example to run reviewdog with RuboCop on GitLabCI
+
+stages:
+  - run_reviewdog
+
+run_reviewdog:
+  image: zzvvmm/gitlabci-reviewdog # change it to the image that you built with Dockerfile (optional)
+  stage: run_reviewdog
+  script:
+    - sh /opt/run-reviewdog.sh
+  only:
+    - merge_requests
+
