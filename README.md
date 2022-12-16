@@ -1,5 +1,5 @@
 Currenty, the `reviewdog` does not fully support **code suggestion** on GitLab yet ([can check the progess here](https://github.com/reviewdog/reviewdog/issues/678#issue-663125434)).  
-But with some additional work, we can run Rubocop reviewdog with code suggestion. This repository shows how to do that.
+But with some additional work, we still can run Rubocop reviewdog with code suggestion smoothly. This repository shows how to do that.
 ### Setup
 - Creating a personal access token
   - Create a personal access token at https://gitlab.com/-/profile/personal_access_tokens

@@ -10,4 +10,3 @@ run_reviewdog:
     - sh /opt/run-reviewdog.sh
   only:
     - merge_requests
-
