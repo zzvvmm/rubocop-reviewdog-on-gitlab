@@ -11,6 +11,7 @@ rubocop $file_name --require /opt/rdjson_formatter.rb --format RdjsonFormatter \
     -reporter="gitlab-mr-discussion" \
     -filter-mode="added" \
     -fail-on-error=false \
+    -tee
 
 reviewdog_rc=$?
 echo '::endgroup::'
