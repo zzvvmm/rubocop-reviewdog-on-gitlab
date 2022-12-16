@@ -25,3 +25,4 @@ But with some additional work, we still can run Rubocop reviewdog with code sugg
 - [reviewdog code suggestion work progress](https://github.com/reviewdog/reviewdog/issues/678#issue-663125434)
 - [Rubocop reviewdog in Github Action](https://github.com/reviewdog/action-rubocop)
 - [Speed up Rubocop reviewdog](https://blog.bhanunadar.com/how-to-optimise-rubocop-reviewdog-github-action-to-execute-faster/)
+- [Issue: reviewdog suggestion in GitLab does not respect the column](https://github.com/reviewdog/reviewdog/issues/1282#issuecomment-1354149286)
